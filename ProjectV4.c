@@ -385,7 +385,7 @@ int main(int argc, char **argv, char **envp)
 				}
 			}
 			//Display morse code on the LED's
-			else if(strcmp(command,Morse) == 0 && spaceNum == 2){
+			else if(strcmp(command,Morse) == 0 && spaceNum >= 2){
 				//gets the gpio number and sentence to convert to morse
 				char gpio[10];
 				char sentence[64];
